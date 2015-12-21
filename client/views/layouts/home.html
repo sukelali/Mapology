@@ -1,0 +1,51 @@
+<template name="home">
+<body onUnload="" class="map-fullscreen page-homepage navigation-off-canvas" id="page-top">
+	<div id="outer-wrapper">
+    <!-- Inner Wrapper -->
+    <div id="inner-wrapper">
+
+			<div id="top" class="navbar-wrapper">
+			        <div class="container overlay-super">
+			            <div class="navbar navbar-inverse">
+			            		<div class="container-fluid">
+			                <div class="navbar-inner">
+			                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			                        <span class="icon-bar"></span>
+			                        <span class="icon-bar"></span>
+			                        <span class="icon-bar"></span>
+			                    </a>
+			                    <a class="brand" href="#"><img src="assets/img/logo-real-estate.png" alt="Logo"></a>
+			                    <div class="text-center searchbox-shroud">
+			                    	<div class="searchbox input-prepend input-append">
+			                    		<button title="Let&nbsp;us&nbsp;locate&nbsp;you" class="btn btn-custom fake-link" id="findMe">
+			                    			<i class="icon-custom-small icon-findme-white"></i>
+			                    		</button>
+			                    			<input autocomplete="off" onclick="this.focus();this.select()" id="txtSearchAddress" type="text" placeholder="Address or place name in ....." class="span4">		    <button id="btnSearch" class="btn btn-custom fake-link">
+			                    	<i id="btnSearchIcon" class="icon-search icon-white"></i></button></div><button class="btn btn-link btn-mini" id="advancedSearch">Advanced</button></div>
+			                    		<div class="navbar-menu pull-right">
+			                        		<div class="btn-group dropdown searchbox-dropdown">
+			                        	</div>
+			                        	<div class="btn-group dropdown">
+			                            <button class="btn btn-main btn-whiteice dropdown-toggle" data-toggle="dropdown">
+			                                Menu&nbsp;<span class="whiteice-caret caret"></span>
+			                            </button>
+			                            <ul class="dropdown-menu right">
+			                                <li class="text-left dropdown-heading muted">Menu</li>
+			                                <li class="nav-li"><a title="illustreets" href="/">Mapology</a></li>                                
+			                                <li class="nav-li"><a title="Help using illustreets" href="/help/">Help</a></li>
+			                                <li class="nav-li"><a title="About illustreets" href="/about-illustreets/">About</a></li>
+			                                <li class="nav-li"><a title="Contact illustreets" href="/contact-illustreets/">Contact</a></li>
+			                            </ul>
+			                        </div>
+			                    </div>
+			                </div>
+			            </div>
+			           </div>
+			        </div>
+			    </div>
+			    	 {{ >mapology }}
+            
+        </div>
+			  </div>
+			</body>
+</template>
